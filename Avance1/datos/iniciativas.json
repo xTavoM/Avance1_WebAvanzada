@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ihu-001", "titulo": "Mapa de espacios accesibles", "tipo": "Idea",
+    "resumen": "Un mapa colaborativo para ubicar rutas y espacios accesibles en el campus.",
+    "descripcion": "La iniciativa propone crear un mapa sencillo, actualizado por la comunidad, que muestre rampas, ascensores, servicios y rutas accesibles dentro del campus.",
+    "problema": "La información sobre accesibilidad está dispersa y no siempre está actualizada.",
+    "beneficiarios": "Estudiantes, docentes y visitantes con necesidades de movilidad.",
+    "categoria": "Comunidad", "propietario": "Lucía Fernández", "competencias": ["Diseño UX", "Desarrollo web", "Accesibilidad"],
+    "estado": "En búsqueda de equipo", "visibilidad": "Pública", "miembros": ["Lucía Fernández"], "participantesEstimados": 5, "etiquetas": ["campus", "accesibilidad"]
+  },
+  {
+    "id": "ihu-002", "titulo": "Huerta inteligente universitaria", "tipo": "Reto",
+    "resumen": "Diseñar una huerta de bajo consumo de agua con monitoreo básico de humedad.",
+    "descripcion": "El equipo diseñará un prototipo de huerta universitaria que combine prácticas de cultivo sostenible con sensores accesibles para medir la humedad del suelo.",
+    "problema": "Los espacios verdes productivos requieren riego frecuente y seguimiento manual.",
+    "beneficiarios": "Comunidad estudiantil y personal de mantenimiento.",
+    "categoria": "Sostenibilidad", "propietario": "Andrés Mora", "competencias": ["IoT", "Agricultura urbana", "Electrónica"],
+    "estado": "Abierta", "visibilidad": "Comunidad", "miembros": ["Andrés Mora", "Sofía Rojas"], "participantesEstimados": 6, "etiquetas": ["ambiente", "iot"]
+  },
+  {
+    "id": "ihu-003", "titulo": "Tutorías entre pares", "tipo": "Necesidad",
+    "resumen": "Conectar a estudiantes que buscan apoyo académico con compañeros tutores.",
+    "descripcion": "Se busca organizar una red de tutorías entre estudiantes, con horarios publicados y materiales compartidos para cursos introductorios.",
+    "problema": "Algunos estudiantes no encuentran apoyo oportuno cuando se atrasan en un curso.",
+    "beneficiarios": "Estudiantes de primeros cursos.",
+    "categoria": "Educación", "propietario": "María Chaves", "competencias": ["Docencia", "Organización", "Comunicación"],
+    "estado": "En búsqueda de equipo", "visibilidad": "Pública", "miembros": ["María Chaves"], "participantesEstimados": 8, "etiquetas": ["aprendizaje", "tutorías"]
+  },
+  {
+    "id": "ihu-004", "titulo": "Pausa activa", "tipo": "Idea",
+    "resumen": "Microactividades para promover pausas saludables durante jornadas de estudio.",
+    "descripcion": "La propuesta reúne ejercicios breves, recordatorios y recomendaciones para que grupos de estudio incorporen pausas activas y hábitos de bienestar.",
+    "problema": "Las jornadas prolongadas de estudio pueden afectar la concentración y el bienestar.",
+    "beneficiarios": "Estudiantes y docentes.",
+    "categoria": "Salud y bienestar", "propietario": "Diego Salas", "competencias": ["Salud", "Diseño de contenido", "Desarrollo web"],
+    "estado": "Abierta", "visibilidad": "Pública", "miembros": ["Diego Salas", "Valeria León"], "participantesEstimados": 4, "etiquetas": ["bienestar", "hábitos"]
+  },
+  {
+    "id": "ihu-005", "titulo": "Banco de intercambio de libros", "tipo": "Necesidad",
+    "resumen": "Facilitar el préstamo e intercambio de libros entre estudiantes.",
+    "descripcion": "Un catálogo comunitario permitirá registrar libros disponibles y coordinar préstamos o intercambios dentro de la universidad.",
+    "problema": "El costo y la disponibilidad de materiales dificultan el acceso a bibliografía.",
+    "beneficiarios": "Estudiantes de todos los programas.",
+    "categoria": "Educación", "propietario": "José Vega", "competencias": ["Desarrollo web", "Bases de datos", "Gestión de comunidad"],
+    "estado": "Abierta", "visibilidad": "Institucional", "miembros": ["José Vega"], "participantesEstimados": 5, "etiquetas": ["libros", "intercambio"]
+  },
+  {
+    "id": "ihu-006", "titulo": "Clasificador de residuos", "tipo": "Reto",
+    "resumen": "Mejorar la separación de residuos con señalización y datos de uso.",
+    "descripcion": "El equipo estudiará puntos de reciclaje, diseñará señalización clara y propondrá una forma de medir la participación de la comunidad.",
+    "problema": "Los residuos reciclables se mezclan por falta de información visible.",
+    "beneficiarios": "Toda la comunidad universitaria.",
+    "categoria": "Sostenibilidad", "propietario": "Camila Arias", "competencias": ["Diseño gráfico", "Análisis de datos", "Sostenibilidad"],
+    "estado": "En búsqueda de equipo", "visibilidad": "Comunidad", "miembros": ["Camila Arias"], "participantesEstimados": 5, "etiquetas": ["reciclaje", "ambiente"]
+  },
+  {
+    "id": "ihu-007", "titulo": "Asistente de orientación académica", "tipo": "Idea",
+    "resumen": "Prototipo conversacional que ayude a encontrar recursos y contactos universitarios.",
+    "descripcion": "Se explorará un prototipo accesible que organice preguntas frecuentes y dirija a las personas hacia los recursos institucionales adecuados.",
+    "problema": "Encontrar el servicio universitario correcto puede tomar tiempo.",
+    "beneficiarios": "Estudiantes de nuevo ingreso y visitantes.",
+    "categoria": "Tecnología", "propietario": "Pablo Jiménez", "competencias": ["Inteligencia artificial", "Diseño UX", "Accesibilidad"],
+    "estado": "Abierta", "visibilidad": "Restringida", "miembros": ["Pablo Jiménez", "Equipo de orientación"], "participantesEstimados": 4, "etiquetas": ["orientación", "prototipo"]
+  },
+  {
+    "id": "ihu-008", "titulo": "Directorio de espacios de estudio", "tipo": "Necesidad",
+    "resumen": "Reunir horarios, capacidad y servicios de los espacios de estudio disponibles.",
+    "descripcion": "La iniciativa centraliza información de espacios de estudio para que la comunidad pueda elegir dónde reunirse según sus necesidades.",
+    "problema": "No existe un lugar sencillo para comparar espacios de estudio disponibles.",
+    "beneficiarios": "Estudiantes que realizan trabajos individuales o en grupo.",
+    "categoria": "Innovación y emprendimiento", "propietario": "Fernanda Ruiz", "competencias": ["Desarrollo web", "Investigación UX", "Gestión de datos"],
+    "estado": "En búsqueda de equipo", "visibilidad": "Pública", "miembros": ["Fernanda Ruiz"], "participantesEstimados": 5, "etiquetas": ["campus", "estudio"]
+  }
+]

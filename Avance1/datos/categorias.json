@@ -1,0 +1,8 @@
+[
+  { "id": "innovacion", "nombre": "Innovación y emprendimiento" },
+  { "id": "sostenibilidad", "nombre": "Sostenibilidad" },
+  { "id": "educacion", "nombre": "Educación" },
+  { "id": "salud", "nombre": "Salud y bienestar" },
+  { "id": "tecnologia", "nombre": "Tecnología" },
+  { "id": "comunidad", "nombre": "Comunidad" }
+]
