@@ -1,0 +1,271 @@
+:root {
+  --azul-oscuro: #17324D;
+  --azul-principal: #2F5D8C;
+  --azul-claro: #DCE8F4;
+  --gris-fondo: #F4F6F8;
+  --gris-borde: #D0D7DE;
+  --gris-texto: #2B2F33;
+  --blanco: #FFFFFF;
+  --acento: #4F86C6;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--gris-texto);
+  background-color: var(--gris-fondo);
+  line-height: 1.6;
+  margin: 0;
+}
+
+h1,h2,h3 {
+  line-height: 1.2;
+}
+
+h2 {
+  color: var(--azul-oscuro);
+}
+
+
+.encabezado {
+  background-color: var(--azul-oscuro);
+}
+
+.navegacion {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marca a {
+  color: var(--blanco);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  color: var(--blanco);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  color: var(--azul-claro);
+}
+
+
+.seccion {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 20px 16px;
+}
+
+.seccion h2 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+}
+
+.introduccion-seccion {
+  max-width: 700px;
+  margin-bottom: 28px;
+}
+
+
+.principal {
+  max-width: none;
+  background: linear-gradient( 120deg, var(--azul-oscuro) 0%, var(--azul-principal) 100%);
+  color: var(--blanco);
+  padding: 72px 20px;
+}
+
+.principal-contenido {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.principal-contenido h1 {
+  max-width: 700px;
+  font-size: 2.6rem;
+  margin-bottom: 16px;
+}
+
+.principal-contenido p {
+  max-width: 700px;
+  font-size: 1.1rem;
+  margin-bottom: 28px;
+}
+
+
+
+.boton {
+  display: inline-block;
+  background-color: var(--azul-principal);
+  color: var(--blanco);
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid var(--azul-principal);
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: var(--azul-oscuro);
+  border-color: var(--azul-oscuro);
+  color: var(--blanco);
+}
+
+.boton-secundario {
+  background-color: transparent;
+  border-color: var(--blanco);
+  color: var(--blanco);
+}
+
+.boton-secundario:hover {
+  background-color: var(--blanco);
+  border-color: var(--blanco);
+  color: var(--azul-oscuro);
+}
+
+.acciones {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.tarjeta {
+  background-color: var(--blanco);
+  border: 1px solid var(--gris-borde);
+  border-top: 4px solid var(--azul-principal);
+  border-radius: 10px;
+  width: calc(25% - 18px);
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta-numero {
+  width: 44px;
+  height: 44px;
+  margin: 20px 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--azul-claro);
+  color: var(--azul-oscuro);
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.tarjeta-cuerpo {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.tarjeta-cuerpo h3 {
+  color: var(--azul-oscuro);
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.tarjeta-cuerpo p {
+  margin-bottom: 12px;
+}
+
+
+.columnas {
+  display: flex;
+  gap: 24px;
+}
+
+.columna {
+  flex: 1;
+  background-color: var(--blanco);
+  border: 1px solid var(--gris-borde);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.columna h3 {
+  color: var(--azul-oscuro);
+  margin-bottom: 8px;
+}
+
+
+.pie {
+  background-color: var(--azul-oscuro);
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  padding: 24px 20px;
+  margin-top: 48px;
+  font-size: 0.95rem;
+}
+
+.pie p {
+  margin: 4px 0;
+}
+
+@media (max-width: 900px) {
+
+  .tarjeta {
+    width: calc(50% - 12px);}
+
+}
+
+@media (max-width: 600px) {
+
+  .navegacion {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;}
+
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .principal {
+    padding: 48px 20px;
+  }
+
+  .principal-contenido h1 {
+    font-size: 2rem;
+  }
+
+  .tarjeta {
+    width: 100%;
+  }
+
+  .columnas {
+    flex-direction: column;
+  }
+
+  .acciones {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
