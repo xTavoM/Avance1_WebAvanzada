@@ -25,11 +25,16 @@ Innovation Hub es una aplicación web la cual permite publicar ideas, necesidade
   - `css/` — estilos compilados
   - `img/` — imágenes utilizadas en el proyecto
 
+
 ## Cómo ejecutar
 
-Abrir el archivo `Avance1/index.html` en el navegador.
+Desde la carpeta `Avance1`, iniciar un servidor local:
 
-Este primer avance no requiere servidor ni base de datos.
+```cmd
+py -m http.server 8000
+```
+
+Después abrir `http://localhost:8000/` en el navegador. El prototipo no requiere base de datos.
 
 ## Decisiones de diseño
 
