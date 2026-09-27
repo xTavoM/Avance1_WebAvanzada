@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Explorá y filtrá iniciativas de Innovation Hub."><title>Explorar iniciativas | Innovation Hub</title><link rel="stylesheet" href="../css/bootstrap-custom.css"><link rel="stylesheet" href="../css/estilos.css"></head>
+<body data-page="catalog">
+  <header class="site-header"><nav class="navbar navbar-expand-lg" aria-label="Navegación principal"><div class="container"><a class="navbar-brand fw-bold" href="../index.html">Innovation Hub</a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNav"><ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2"><li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li><li class="nav-item"><a class="nav-link active" aria-current="page" href="iniciativas.html">Explorar iniciativas</a></li><li class="nav-item"><a class="nav-link" href="perfil.html">Perfil de ejemplo</a></li><li class="nav-item"><a class="btn btn-success ms-lg-2" href="registro-iniciativa.html">Publicar iniciativa</a></li></ul></div></div></nav></header>
+  <main class="container section-space"><div id="globalStatus" aria-live="polite"></div><header class="mb-4"><p class="text-success fw-bold mb-1">Catálogo de oportunidades</p><h1>Explorá iniciativas</h1><p class="lead">Encontrá ideas, necesidades y retos donde tus habilidades puedan aportar.</p></header>
+    <section class="card mb-4" aria-labelledby="filterTitle"><div class="card-body p-4"><h2 id="filterTitle" class="h5">Buscar y filtrar</h2><div class="row g-3 align-items-end">
+      <div class="col-12 col-md-6 col-xl-3"><label for="searchText" class="form-label">Buscar por texto</label><input id="searchText" class="form-control" type="search" placeholder="Título, resumen, persona o etiqueta"></div>
+      <div class="col-12 col-md-6 col-xl-2"><label for="filterType" class="form-label">Tipo</label><select id="filterType" class="form-select"><option value="">Todos los tipos</option><option>Idea</option><option>Necesidad</option><option>Reto</option></select></div>
+      <div class="col-12 col-md-6 col-xl-3"><label for="filterCategory" class="form-label">Categoría</label><select id="filterCategory" class="form-select"><option value="">Todas las categorías</option></select></div>
+      <div class="col-12 col-md-6 col-xl-3"><label for="filterCompetency" class="form-label">Competencia</label><select id="filterCompetency" class="form-select"><option value="">Todas las competencias</option></select></div>
+      <div class="col-12 col-xl-1"><button id="clearFilters" class="btn btn-outline-secondary w-100" type="button">Limpiar</button></div>
+    </div></div></section>
+    <p id="catalogStatus" class="small text-secondary" role="status" aria-live="polite"></p><div id="initiativeGrid" class="row g-4"></div>
+  </main>
+  <footer class="site-footer py-4"><div class="container d-flex flex-column flex-sm-row justify-content-between gap-2"><span class="fw-bold">Innovation Hub</span><a href="../index.html">Volver al inicio</a></div></footer>
+  <script src="../js/storage.js"></script><script src="../js/fallback-data.js"></script><script src="../js/ui.js"></script><script src="../js/data.js"></script><script src="../js/catalog.js"></script><script src="../js/app.js"></script>
+</body></html>
