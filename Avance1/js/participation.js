@@ -11,9 +11,11 @@ window.IHParticipation = {
     }
     document.querySelector("#requestInitiative").textContent = initiative.titulo;
     select.insertAdjacentHTML("beforeend", window.IHUI.optionList(initiative.competencias || []));
+    select.options[0].textContent = "Seleccioná una competencia";
     form.addEventListener("submit", (event) => {
       event.preventDefault();
       if (!window.IHValidation.validateParticipation(form)) {
+      window.IHUI.showStatus(document.querySelector("#requestStatus"), "Revisá los campos marcados antes de enviar la solicitud.", "warning");
         form.querySelector('[aria-invalid="true"]')?.focus();
         return;
       }
