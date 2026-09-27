@@ -13,6 +13,7 @@ window.IHInitiativeForm = {
     const selectedCompetencies = [...(existing?.competencias || [])];
     const categorySelect = form.elements.categoria;
     categorySelect.insertAdjacentHTML("beforeend", window.IHUI.optionList(categories));
+    categorySelect.options[0].textContent = "Elegí una categoría";
     if (existing) {
       ["titulo", "tipo", "resumen", "descripcion", "problema", "beneficiarios", "categoria", "participantes", "visibilidad", "etiquetas"].forEach((name) => {
         const itemKey = name === "participantes" ? "participantesEstimados" : name;
